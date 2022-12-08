@@ -7,7 +7,7 @@ const AddOrderProvider = (props) => {
 
   useEffect(() => {
     const orderDetails = localStorage.getItem("orderDetails");
-    setOrderDetails(JSON.parse(orderDetails));
+    setOrderDetails(JSON.parse(orderDetails) || []);
   }, []);
 
   useEffect(() => {

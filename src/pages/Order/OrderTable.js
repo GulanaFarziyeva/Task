@@ -4,7 +4,7 @@ import { OrderContext } from "../../context/OrderContext";
 const OrderTable = ({ orderDetails }) => {
   const { deleteOrder } = useContext(OrderContext);
 
-  if (orderDetails?.length <= 0) {
+  if (!orderDetails?.length) {
     return <td className="text-center">Sifaris yoxdur</td>;
   }
 

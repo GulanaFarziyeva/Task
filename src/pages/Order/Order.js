@@ -11,7 +11,7 @@ const Order = () => {
   const [total, setTotal] = useState(0);
 
   useEffect(() => {
-    if (orderDetails.length > 0) {
+    if (orderDetails?.length > 0) {
       const totalPrice = orderDetails.reduce(
         (acc, curr) => acc + curr.price,
         0
