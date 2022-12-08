@@ -18,7 +18,7 @@ const AddOrderForm = ({ handleCloseModal }) => {
     table: "",
     price: "",
     date,
-    id: orderDetails.length + 1,
+    id: orderDetails? orderDetails.length + 1 : 1,
   });
 
   const [menu, setMenu] = useState([]);
