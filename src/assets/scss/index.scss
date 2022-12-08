@@ -1,0 +1,30 @@
+@import url('./home.scss');
+@import url('./layout.scss');
+@import url('./order.scss');
+@import url('./responsive.scss');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+body {
+  overflow-x: hidden !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-center {
+  display: flex;
+  align-items: center;
+}
+
+.btn-close {
+  background-image: url('https://img.icons8.com/color/512/delete-sign--v1.png') !important;
+  font-size: 20px;
+  font-weight: 700;
+}

@@ -1,0 +1,24 @@
+{
+    "servants": [
+        {
+            "id" : 1,
+            "name": "Əli"
+        },
+        {
+            "id" : 2,
+            "name": "Murtuz"
+        },
+        {
+            "id" : 3,
+            "name": "Aysel"
+        },
+        {
+            "id" : 4,
+            "name": "Leyla"
+        },
+        {
+            "id" : 5,
+            "name": "Elmar"
+        }
+    ]
+  }

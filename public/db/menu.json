@@ -1,0 +1,50 @@
+{
+    "menu": [
+        {
+            "id" : 1,
+            "food": "Penne Arabiata",
+            "price" : 15
+        },
+        {
+            "id" : 2,
+            "food": "Steak",
+            "price" : 25
+        },
+        {
+            "id" : 3,
+            "food": "Pendir supu",
+            "price" : 10.60
+        },
+        {
+            "id" : 4,
+            "food": "Calzone",
+            "price" : 20.50
+        },
+        {
+            "id" : 5,
+            "food": "Qarışıq dəniz məhsulları",
+            "price" : 28.70
+        },
+        {
+            "id" : 6,
+            "food": "Dana əti limon sous ilə",
+            "price" : 39.0
+        },
+        {
+            "id" : 8,
+            "food": "Rikotta pendiri və pesto sousu ilə ravioli",
+            "price" : 39.0
+        },
+        {
+            "id" : 9,
+            "food": "Toyuq ilə Sezar salatı",
+            "price" : 22.0
+        },
+        {
+            "id" : 10,
+            "food": "Qarışıq Salat",
+            "price" : 12.50
+        }
+     
+    ]
+  }

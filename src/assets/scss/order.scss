@@ -1,0 +1,198 @@
+$main-bg-color: #f18b1d;
+$c-white: #fff;
+$c-white-1: #f8f9f9;
+$c-white-2: #f4f6f7;
+$c-white-3: #f8f9f9;
+$c-white-4: #f2f3f4;
+$c-gray-1: #2c3e50;
+$c-gray-2: #d0d3d4;
+$success: #228b22;
+$danger: #dc143c;
+$c-green: #e8f8f5;
+$c-red: #f9ebea;
+$blue: #0000ffae;
+
+.order-nav-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 200px;
+    background-color: #333;
+}
+
+.order-page {
+    margin-top: 250px;
+    margin-bottom: 50px;
+
+    .table-wrapper {
+        background: $c-white;
+        border-radius: 3px;
+        min-width: 1000px;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+        border-left: 1px solid $c-gray-2;
+        border-right: 1px solid $c-gray-2;
+        border-bottom: 1px solid $c-gray-2;
+
+        .table-title {
+            padding: 10px 30px;
+            background: $main-bg-color;
+            color: $c-white;
+            min-width: 100%;
+            border-radius: 3px 3px 0 0;
+
+            h2 {
+                margin: 5px 0 0;
+                font-size: 16px;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+            }
+
+            .btn-group {
+                float: right;
+            }
+
+            .addOrderbtn {
+                background: none !important;
+                float: right;
+                font-size: 16px;
+                font-weight: 500 !important;
+                border: none;
+                width: 150px;
+                border-radius: 10px;
+                border: 2px solid $c-white !important;
+                outline: none !important;
+                margin-left: 10px;
+                transition: all 0.5s ease;
+
+
+                &:hover {
+                    background: $c-white !important;
+                    color: $main-bg-color !important;
+                }
+            }
+        }
+
+        tr {
+            text-align: center;
+            color: $c-gray-1;
+            font-size: 15px;
+            font-weight: 600;
+            height: 50px !important;
+
+            &:nth-of-type(odd) {
+                background-color: #f4f6f7;
+            }
+
+            &:hover {
+                background: $c-white-2;
+                cursor: pointer;
+            }
+
+            .table-one-row {
+                width: 80px;
+            }
+
+            .order-time-col {
+                width: 150px;
+            }
+
+            th {
+                color: #707b7c !important;
+                background-color: $c-white-4;
+                font-size: 15px;
+                font-weight: 500;
+                padding: 12px 15px;
+                border: 1px solid $c-white-4;
+                border-bottom-color: $c-gray-2 ;
+                border-top-color: $c-gray-2 ;
+                text-align: center;
+            }
+
+            td {
+                padding-top: 14px !important;
+
+                .order-status {
+                    color: $success !important;
+                    background-color: $c-green;
+                    display: inline-block;
+                    text-decoration: none;
+                    outline: none !important;
+                    padding: 2px 12px;
+                    font-size: 13px;
+                    font-weight: 600;
+                    border: 1px solid;
+                    border-radius: 30px;
+                }
+
+                .delete {
+                    background-color: $blue;
+                    padding: 4px 10px;
+                    color: $c-white;
+                    font-size: 13px;
+                    text-decoration: none;
+                    border: none;
+                    border-radius: 5px;
+                    transition: all 0.5s ease;
+
+                    &:hover {
+
+                        opacity: 0.7;
+                    }
+                }
+            }
+        }
+
+        .total-price {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 40px;
+            width: 100%;
+            background-color: var(--c-white-4);
+            border-top: 1px solid $c-gray-2;
+
+            &__text {
+                gap: 20px;
+
+                h5 {
+                    font-size: 18px;
+                    font-weight: 600;
+                    color: $main-bg-color;
+                }
+            }
+
+            &__btn {
+                background-color: $main-bg-color;
+                color: $c-white;
+                font-size: 16px;
+                font-weight: 500;
+                padding: 8px 0;
+                width: 150px;
+                border: none;
+                border-radius: 10px;
+                cursor: pointer;
+                transition: all 0.5s ease;
+
+                &:hover {
+                    opacity: 0.7;
+                }
+            }
+        }
+    }
+}
+
+.modal-title {
+    color: $main-bg-color;
+    font-weight: 500;
+
+    .btn-close {
+        background: var(--danger) !important;
+    }
+
+}
+
+.modal-body {
+    .disabled {
+        background-color: var(--c-white) !important;
+    }
+}
